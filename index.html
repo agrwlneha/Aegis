@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="res/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Merriweather:400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>AEGIS: Active Employee Gyaan Intervention System</title>
+</head>
+
+<body>
+    <div class="container-box">
+        <!--Navbar-->
+        <div class="navbar-container">
+            <div class="navbar">
+                <img src="res/logo.png">
+                <!--Logo-->
+                <!--Navbar Element-->                
+				<a href="#health" class=nav-link>
+                    <div class="nav-element">Health</div>
+                </a>
+				<a href="#start" class=nav-link>
+                    <div class="nav-element" data-toggle="collapse" data-target="#slist">Office Space
+                          <!--Arrow Icon-->
+                        <i class="material-icons arrow" id="arrow">keyboard_arrow_down</i>
+                        <!--Collapsible List-->
+                    </div>
+                    <ul class="collapse list stylelist" id="slist">
+                        <a href="#parking" class=nav-link>
+							<li>Parking</li>
+						</a>
+                        <a href="#washroom" class=nav-link>
+							<li>Washroom</li>
+						</a>
+						<a href="#meetingRoom" class=nav-link>
+							<li>Meeting Room</li>
+						</a>
+						<a href="#keys" class=nav-link>
+							<li>Office Keys</li>
+						</a>
+                        <a href="#kitchen" class=nav-link>
+							<li>Food and Cafe</li>
+						</a>
+                    </ul>
+                </a>
+				<a href="#start" class=nav-link>
+                    <div class="nav-element" data-toggle="collapse" data-target="#slist2">Employee Resources
+                          <!--Arrow Icon-->
+                        <i class="material-icons arrow" id="arrow">keyboard_arrow_down</i>
+                        <!--Collapsible List-->
+                    </div>
+                    <ul class="collapse list stylelist" id="slist2">
+                        <a href="#workingSpace" class=nav-link>
+							<li>Working Space</li>
+						</a>
+						<a href="#it" class=nav-link>
+							<li>IT Resources</li>
+						</a>
+						<a href="#internet" class=nav-link>
+							<li>Internet</li>
+						</a>
+						<a href="#printer" class=nav-link>
+							<li>Printer</li>
+						</a>
+						<a href="#stationery" class=nav-link>
+							<li>Stationery</li>
+						</a>
+                    </ul>
+                </a> 
+				<a href="#start" class=nav-link>
+                    <div class="nav-element" data-toggle="collapse" data-target="#slist3">Finances
+                          <!--Arrow Icon-->
+                        <i class="material-icons arrow" id="arrow">keyboard_arrow_down</i>
+                        <!--Collapsible List-->
+                    </div>
+                    <ul class="collapse list stylelist" id="slist3">
+                        <a href="#payroll" class=nav-link>
+							<li>Payroll Queries</li>
+						</a>
+						<a href="#reimbursements" class=nav-link>
+							<li>Reimbursements</li>
+						</a>
+                    </ul>
+                </a> 				
+				<a href="#misc" class=nav-link>
+                    <div class="nav-element">Miscellaneous</div>
+                </a>
+            </div>
+        </div>
+		
+        <!--Main Content-->
+        <div class="content-container">
+            <div id="main">
+                <!--Content Header-->
+                <div class="content-header">
+					<img src="Images/background.png" style="margin-left: -25.00px; margin-top: -16.00px;">
+                    <h1><b><i> AEGIS </i></b></h1>
+					<p style="margin-top: 4px;">
+					<font size="4.5px" color="#FAFAFA"> Active Employee Gyaan Intervention System </font>
+					</p>
+                </div>
+                <!--Content Body-->
+                <div class="content">
+                    <!--Content Section-->
+					<div class="section">
+                        <h4>Hello World, 
+							<br>
+							<b> AEGIS</b> is here to help you. If your issue is not listed here, file a ticket <br>on JIRA. <br>
+							Have a great day ! <font size="6"> &#9786; </font> <br> 
+						</h4>
+                    </div>
+					<div>
+						<div class="contact-upper-band">
+							<b> Contact Team Ops </b>
+						</div>
+						<div class="contact-box">
+							Reach us at <font color="#DB504A"><b> resources@elucidata.io </b></font> <br>
+							Call Sanjay ji at 8076027702 <br>
+							Call Rizwan at 9716443422 <br>
+						</div>
+						<br> <br> 
+					</div>
+					<script type="text/javascript" src="https://elucidatainc.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-8vskru/b/a/7ebd7d8b8f8cafb14c7b0966803e5701/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=485340bf"></script>
+		
+    <script type="text/javascript">window.ATL_JQ_PAGE_PROPS =  {
+	"triggerFunction": function(showCollectorDialog) {
+		//Requires that jQuery is available! 
+		jQuery("#myCustomTrigger").click(function(e) {
+			e.preventDefault();
+			showCollectorDialog();
+			});		
+	}};</script>
+					<button class="primary cdn-normal button-centre-blue" id="myCustomTrigger" style="left: 70%;"> We would love to hear from you</button>	
+					<button class="primary cdn-normal button-centre-blue" style="margin-left: 24.00px;" onclick="tryMe();"> trial function </button>		
+					<br>		
+					<button class="primary cdn-normal button-centre-blue" style="margin-left: 24.00px;" onclick="signIn();">google signIn </button>				
+					<!--Content Section-->
+					<div id="health" class="section">
+                        <h4> Health </h4>
+							<div class="full-box color-orange-full">
+								<b>Ques: Where can I find medical aid?</b>
+							</div>
+							<div class="box color-orange-border">	
+								Ans: For small injuries, there is a FIRST AID BOX in both the offices. <br> <br>
+								Hospitals nearby: MAX Multi Speciality Centre <br>
+								<img alt="" src="Images/hospital.png" style="width: 470px; height: 400px; margin-left: 50.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""> </img> <br> <br> 
+								Chemists nearby: <br> 
+								<img alt="" src="Images/chemist.JPG" style="width: 300px; height: 200px; margin-left: 120.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""> </img> <br> <br>
+								<i> Remember, an apple a day keeps anyone away, if you throw it hard enough.</i> <br>
+							</div>
+                    </div>
+					<div id="parking" class="section">
+                        <h4>Parking</h4>
+							<div class="full-box color-red-full">
+								<b>Ques: Where can I park my vehicle?</b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: You can park your bikes below the new office building. Cars must be parked near DDA park. Please don't park near the old office building. Parking is at the owner's risk. Parking area is highlighted in yellow.
+								<img alt="" src="Images/parking.jpg" style="width: 200px; height: 150px; margin-left: 180.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""> <br> <br>
+								<i> Jan Hith mein avoid large vehicles and Say no to pollution! Save Delhi! Save Environment! </i> <br>
+							</div>
+                    </div>
+					<div id="washroom" class="section">
+                        <h4>Washroom</h4>
+							<div class="full-box color-red-full">
+								<b>Ques: The toilet is messed up, how do we get it cleaned? </b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: The toilet does not autoclean itself, so take care and do your bit. <br>
+								Please create a JIRA issue for the same. <br>
+								<button class="primary cdn-normal button-left-red" data-toggle="modal" data-target="#myModal"> Create JIRA Issue</button> 
+								<br>
+								 
+							</div>
+                    </div>
+					<div id="meetingRoom" class="section">
+                        <h4>Meeting Room</h4>
+							<div class="full-box color-red-full">
+								<b>Ques: There is no marker and/or duster in the meeting rooms. Help!</b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: Ask Sanjay Ji in old office (8076027702) OR Rizwan in new office (9716443422) to get you one. <br>
+							</div>
+							<br>
+							<div class="full-box color-red-full">
+								<b>Ques: How many meeting rooms do we have?</b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: You can just check Elucidata calendar for booking a meeting room. <br>
+							</div>
+							<br>
+							<div class="full-box color-red-full">
+								<b>Ques: Where can we have our meetings if all the meeting rooms are occupied? </b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: Some problems are meant to be resolved on their own! <br>
+							</div>
+					</div>
+					<div id="keys" class="section">
+                        <h4>Office Keys</h4>
+							<div class="full-box color-red-full">
+								<b>Ques: Where can I find the keys for the office?</b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: There are 3 keys each for both the offices. For emergency purpose contact Sanjay Ji(8076027702) or Rizwan(9716443422) as they have spare keys. <br>
+								Note: The GREEN WALL ALWAYS HAS ONE EMERGENCY KEY HUNG OVER IT. It could be your savior. <br>
+								Note: If you are planning to leave last, please ensure that you have the keys. <br>
+							</div>
+                    </div>
+					<div id="kitchen" class="section">
+                        <h4>Food and Cafe</h4>
+							<div class="full-box color-red-full">
+								<b>Ques: I can't find any cups and/or plates on the table.</b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: We have a kitchen in both the buildings where you can find cups, plates and other useful kitchen items. <br> 
+							</div>
+							<br>
+							<div class="full-box color-red-full">
+								<b>Ques: There is no water in the machine? </b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: We have an aquaguard in both the kitchens. <br>
+								For the machine, <br>
+								Step 1: Please switch off the machine <br>
+								Step 2: Please ask Rizwan(9716443422) to refill the water <br>
+							</div>
+							<br>
+							<div class="full-box color-red-full">
+								<b>Ques: I am hungry, I want biscuits! </b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: Ask Sanjay Ji (old office) (8076027702) OR Rizwan (new office) (9716443422) to provide you with biscuits. <br>
+								<i> Eating a lot of biscuits is unhealthy !</i> <br>
+							</div>
+							<br>
+							<div class="full-box color-red-full">
+								<b>Ques: What all can we order for snacks? </b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: If you are a Maggie lover, we have it in good stock in the office. Please ask Sanjay Ji(8076027702) or Rizwan(9716443422) to cook it for you. <br>
+								For other snacks, feel free to order from Swiggy for yourself and for us! <br>
+								You can also ask Sanjay Ji (old office) (8076027702) OR Rizwan (new office) (9716443422) to bring something for you. <br>
+								<i> Keep your friends close, and your snacks closer. </i> <br>
+							</div>
+                    </div>
+					<div id="workingSpace" class="section">
+                        <h4>Working Space</h4>
+							<div class="full-box color-green-full">
+								<b>Ques: AC and/or fan is not working, what should I do? </b>
+							</div>
+							<div class="box color-green-border">	
+								Ans: Please create a Jira issue. <br>
+								<button class="primary cdn-normal button-left-green" data-toggle="modal" data-target="#myModal"> Create JIRA Issue</button> 
+							</div>
+							<br>
+							<div class="full-box color-green-full">
+								<b>Ques: My chair is broken, what should I do?</b>
+							</div>
+							<div class="box color-green-border">	
+								Ans: <i> Sticking to the same chair is something what ministers do.</i> <br> 
+								Please create the JIRA issue and we will see to it that it will be repaired in short duration. <br>
+								P.S Please ask Sanjay ji(8076027702) or Rizwan(9716443422) you can't find an extra chair. <br>
+									<button class="primary cdn-normal button-left-green" data-toggle="modal" data-target="#myModal"> Create JIRA Issue</button> 
+							</div>
+							<br>
+							<div class="full-box color-green-full">
+								<b>Ques: I need an extra screen on my table for work. Help!</b>
+							</div>
+							<div class="box color-green-border">	
+								Ans: Please create JIRA issue for this, we will revert back with best possible solution. <br>
+									<button class="primary cdn-normal button-left-green" data-toggle="modal" data-target="#myModal"> Create JIRA Issue</button> 
+							</div>
+							<br>
+							<div class="full-box color-green-full">
+								<b>Ques: I need an electrical extension for my table. Help!</b>
+							</div>
+							<div class="box color-green-border">	
+								Ans: Please get in touch with Sanjay Ji (8076027702) to provide you with an electrical extension. <br>
+							</div>
+                    </div>
+					<div id="it" class="section">
+                        <h4>IT Resources</h4>
+							<div class="full-box color-green-full">
+								<b>Ques: I have lost my charger. How can we get the extra charger?</b>
+							</div>
+							<div class="box color-green-border">	
+								Ans: Create a JIRA issue for this. We will revert you to the earliest. <br>
+									<button class="primary cdn-normal button-left-green" data-toggle="modal" data-target="#myModal"> Create JIRA Issue</button> 
+							</div>
+							<br>
+							<div class="full-box color-green-full">
+								<b>Ques: I need an extra screen on my table for work. Help!</b>
+							</div>
+							<div class="box color-green-border">	
+								Ans: Please create JIRA issue for this, we will revert back with best possible solution. <br>
+									<button class="primary cdn-normal button-left-green" data-toggle="modal" data-target="#myModal"> Create JIRA Issue</button> 
+							</div>
+							<br>
+                    </div>
+					<div id="internet" class="section">
+                        <h4>Internet</h4>
+							<div class="full-box color-green-full">
+								<b>Ques: Internet is not working on my system. Help !</b>
+							</div>
+							<div class="box color-green-border">	
+								Ans: a.) WIFI IS NOT WORKING: <br>
+								STEP1: Check if router is switched on. <br>
+								STEP2: If your wifi is not working in anyway create a Jira issue. <br>
+								<i> Try whispering “Be Strong” to your Wifi signal. </i> <br> <br>
+									b.) LAN PORT IS NOT WORKING: <br>
+								STEP1: Check  with the person sitting next to you if his/her LAN is working. Please try changing the LAN cables. <br>
+								STEP2: If no LAN ports are working then create a issue on the JIRA board and set its priority as highest. <br>
+							</div>
+							<br>
+							<div class="full-box color-green-full">
+								<b>Ques: I don't have a LAN cable, What should I do?</b>
+							</div>
+							<div class="box color-green-border">	
+								Ans: Ask Sanjay Ji(8076027702) or Rizwan(9716443422) for one. <br>
+								<i> All passengers of train Elucidata are responsible for their own belongings </i> <br>
+							</div>
+							<br>
+							<div class="full-box color-green-full">
+								<b>Ques: Why I am not able to connect my mobile phone to the internet?</b>
+							</div>
+							<div class="box color-green-border">	
+								Ans: Our routers are MAC filtered to avoid uninterrupted internet usage. You can connect your phone to the following connections.<br>
+								<table id="gridtable">
+									<thead>
+										<tr>
+											<td> <b>Router Name </b> </td> 
+											<td> <b>Location </b> </td> 
+											<td> <b>Password </b> </td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td> <b>Old Office </b> </td> 
+											<td> <b></b> </td> 
+											<td> <b></b> </td>
+										</tr>
+										<tr>
+											<td>Elucidata_SS</td>
+											<td>2nd Floor</td>	
+											<td>9988993666</td>	
+										</tr>
+										<tr>
+											<td>HolidifyTech</td>
+											<td>Charaka, 3rd Floor</td>	
+											<td>9988993666</td>	
+										</tr>
+										<tr>
+											<td> <b>New Office </b> </td> 
+											<td> <b></b> </td> 
+											<td> <b></b> </td>
+										</tr>
+										<tr>		
+											<td>Elucidata_SS New</td>
+											<td>2nd Floor</td>
+											<td>9988993666</td>	
+										</tr>
+										<tr>
+											<td>TIMBL6993</td>
+											<td>3rd Floor</td>
+											<td>9205726993</td>	
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<br>
+							<div class="full-box color-green-full">
+								<b>Ques:  What is the Wi-Fi password?</b>
+							</div>
+							<div class="box color-green-border">
+								<table id="gridtable">
+									<thead>
+										<tr>
+											<td> <b>Router Name </b> </td> 
+											<td> <b>Location </b> </td> 
+											<td> <b>Password </b> </td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td> <b>Old Office </b> </td> 
+											<td> <b></b> </td> 
+											<td> <b></b> </td>
+										</tr>
+										<tr>
+											<td>Elucidata New</td>
+											<td>2nd Floor</td>
+											<td>newbuilding212</td>	
+										</tr>
+										<tr>
+											<td>Elucidata_SS</td>
+											<td>2nd Floor</td>	
+											<td>9988993666</td>	
+										</tr>
+										<tr>
+											<td>HolidifyTech</td>
+											<td>Charaka, 3rd Floor</td>	
+											<td>9988993666</td>	
+										</tr>
+										<tr>
+											<td> <b>New Office </b> </td> 
+											<td> <b></b> </td> 
+											<td> <b></b> </td>
+										</tr>
+										<tr>
+											<td>Elucidata_bkp & Elucidata_bkp5G</td>
+											<td>2nd Floor</td>
+											<td>9650572511</td>										   
+										</tr>
+										<tr>		
+											<td>Elucidata_SS New </td>
+											<td>2nd Floor</td>
+											<td>9988993666</td>	
+										</tr>
+										<tr>
+											<td>TIMBL6993</td>
+											<td>3rd Floor</td>
+											<td>9205726993</td>	
+										</tr>
+									</tbody>
+								</table>
+							</div>
+                    </div>
+					<div id="printer" class="section">
+                        <h4>Printer</h4>
+							<div class="full-box color-green-full">
+								<b>Ques: Where is the printer/ scanner?</b>
+							</div>
+							<div class="box color-green-border">	
+								Ans: The printer/scanner is resting on the 2nd floor of new office building, feel free to disturb him. <br>
+							</div>
+							<br>
+							<div class="full-box color-green-full">
+								<b>Ques: I am not able to take out a print. Help!</b>
+							</div>
+							<div class="box color-green-border">	
+								Ans: Please refer to the user manual pasted on the printer.<br>
+								If you continue to face an issue, please ask some Jugaad person around <font size="6"> &#9786; </font> <br>
+								<i> psst.. </i> <br>
+								<img alt="" src="Images/printer.jpg" style="width: 300px; height: 200px; margin-left: 120.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""> <br>
+							</div>
+                    </div>
+					<div id="stationery" class="section">
+                        <h4>Stationery</h4>
+							<div class="full-box color-green-full">
+								<b>Ques: How can we get the Stationary for office use?</b>
+							</div>
+							<div class="box color-green-border">	
+								Ans: Books and pens are available with Sanjay Ji. <br>
+								For other things, please create a JIRA issue specifying what exactly you need. <br>
+								<button class="primary cdn-normal button-left-green" data-toggle="modal" data-target="#myModal"> Create JIRA Issue</button> 
+							</div>
+							<br>
+                    </div>
+					<div id="payroll" class="section">
+                        <h4>Payroll Queries</h4>
+							<div class="full-box color-orange-full">
+								<b>Ques: I didn’t receive the salary for this month. Help!</b>
+							</div>
+							<div class="box color-orange-border">	
+								Ans: Please create a Jira issue and we will revert back soon.
+								<button class="primary cdn-normal button-left-orange" data-toggle="modal" data-target="#myModal"> Create JIRA Issue</button> 
+							</div>
+							<br>
+							<div class="full-box color-orange-full">
+								<b>Ques: How can I get my salary slip?</b>
+							</div>
+							<div class="box color-orange-border">	
+								Ans: Please create a Jira issue and we will revert back soon.
+								<button class="primary cdn-normal button-left-orange" data-toggle="modal" data-target="#myModal"> Create JIRA Issue</button> 
+							</div>
+							<br>
+							<div class="full-box color-orange-full">
+								<b>Ques: When do we get the monthly salary?</b>
+							</div>
+							<div class="box color-orange-border">	
+								Ans: Salaries are credited on the last working day of the month, or latest by the second day of the next month. <br>
+								<i> The quickest way to double your money is to fold it over and put it back in your pocket !</i> <br>
+							</div>
+							<br>
+							<div class="full-box color-orange-full">
+								<b>Ques: Where can I get my Form-16 from?</b>
+							</div>
+							<div class="box color-orange-border">	
+								Ans: Please create a Jira issue and we will revert back soon.
+								<button class="primary cdn-normal button-left-orange" data-toggle="modal" data-target="#myModal"> Create JIRA Issue</button> 
+							</div>
+                    </div>
+					<div id="reimbursements" class="section">
+                        <h4>Reimbursements</h4>
+							<div class="full-box color-orange-full">
+								<b>Ques: I need to buy some important stuff for office use, what amount is permitted for reimbursement?</b>
+							</div>
+							<div class="box color-orange-border">	
+								Ans: Please create a JIRA issue and we will revert back with best possible solution. <br>
+									<button class="primary cdn-normal button-left-orange" data-toggle="modal" data-target="#myModal"> Create JIRA Issue</button> 
+							</div>
+							<br>
+							<div class="full-box color-orange-full">
+								<b>Ques: How do I file for reimbursement?</b>
+							</div>
+							<div class="box color-orange-border">	
+								Ans: Please fill the following form and send it to resources@elucidata.io. Please don't forget to attach bills. 
+								<i> NOTE: No Bill, No Reimbursements! </i> <br>
+								<a href = "res/reimbursementForm.xlsx" >
+									<button class="primary cdn-normal button-left-orange"> Download Reimbursements Form!</button> 
+								</a>
+							</div>
+                    </div>
+                   <div id="misc" class="section">
+                        <h4>Miscellaneous</h4>
+							<div class="full-box color-red-full">
+								<b>Ques: Where is the sleeping area in the office?</b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: We have a sleeping area in new office building on the second floor. <br>
+								For convenience, please book bed through calendar just like meeting rooms <br>
+								<i> Why fall in love, when you can fall asleep ?! </i> <br>
+							</div>
+							<br>
+							<div class="full-box color-red-full">
+								<b>Ques: The mosquito repellant liquid is over. Help!</b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: Ask Rizwan (9716443422) to change the refill of the mosquito repellant machine. <br>
+							</div>
+							<br>
+							<div class="full-box color-red-full">
+								<b>Ques: What is the address of the office?</b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: ELUCIDATA, 3rd Floor Building no. 212 C/O Bijendra Singh Pawar Shahpur Jat Siri fort, New Delhi-110049 <br>
+							</div>
+							<br>
+							<div class="full-box color-red-full">
+								<b>Ques: What is the procedure for applying for leaves? </b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: Please drop an email to your reporting manager before booking your tickets.<br>
+							</div>
+							<br>
+							<div class="full-box color-red-full">
+								<b>Ques: Where can I find the template for slides?</b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: Find it at Google slides >File>New>From template>Elucidata TemplateV2 <br>
+							</div>
+							<br>
+							<div class="full-box color-red-full">
+								<b>Ques: Where can I find the list of holidays?</b>
+							</div>
+							<div class="box color-red-border">	
+								Ans: Please add the google calendar for the list of holidays. The name of the calendar is “ list of jolly days”. <br>
+							</div>
+                    </div>
+					
+					<button class="primary cdn-normal button-centre-blue" data-toggle="modal" data-target="#myModal" style="left: 25%;"> I can't find my issue. Take me to JIRA board !</button> 
+										
+					<!-- Modal -->
+					<div class="modal" id="myModal" tabindex="-1" role="dialog">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+							  <div class="content">
+								<div class="modal-header section margin-zero">
+									<h4 class="modal-title">Instructions for filing on JIRA</h4>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+							  </div>
+							  <div class="modal-body">
+									<div class="section margin-zero">
+									Be descriptive. <br>
+									Issue once created can't be deleted at your end. <br>
+									File genuine issues. Avoid piling up. <br>
+									ETA = minimum time for response, not resolve. <br>
+									</div>
+									<table id="gridtable">
+										<thead>
+											<tr>
+												<td> <b>My issue </b> </td> 
+												<td> <b>Priority to assign</b> </td>
+												<td> <b>ETA in hours </b> </td>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Internet/ Office Keys</td>
+												<td>Highest</td>
+											   <td>1</td>
+											</tr>
+											<tr>
+												<td>IT Resources</td>
+												<td>Medium</td>
+											   <td>4</td>
+											</tr>
+											<tr>
+												<td>Finance</td>
+												<td>Medium</td>
+											   <td>4</td>
+											</tr>
+											<tr>
+												<td>Non IT Resources</td>
+												<td>Lowest</td>
+											   <td>5</td>
+											</tr>
+											<tr>
+												<td>Miscellaneous</td>
+												<td>Depending upon the Situation</td>
+											   <td>2</td>
+											</tr>
+										</tbody>
+									</table>
+							  </div>
+							  <div class="modal-footer">
+								<a href = "https://elucidatainc.atlassian.net/secure/RapidBoard.jspa?rapidView=56" class="btn">
+									<button class="primary cdn-normal button-centre-blue" style="margin-left: 24.00px;"> Go to JIRA board !</button> 
+								</a>
+							  </div>
+							</div>
+						</div>
+					</div>
+					<br> <br>					
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--javascript for Google Authentication using Firebase -->
+
+	<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyDqst_3fKOoIMHBBv0x8T38ZKZFSsD7GE8",
+	    authDomain: "aegis-185913.firebaseapp.com",
+	    databaseURL: "https://aegis-185913.firebaseio.com",
+	    projectId: "aegis-185913",
+	    storageBucket: "aegis-185913.appspot.com",
+	    messagingSenderId: "937633121620"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+</body>
+
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/master.css">
+<link rel="stylesheet" href="css/project.css">
+<script src="js/script.js"></script>
